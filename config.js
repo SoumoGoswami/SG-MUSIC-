@@ -4,7 +4,7 @@ module.exports = {
   TOKEN: "",
   language: "en",
   ownerID: ["770636629848621107", ""], 
-  mongodbUri : "mongodb+srv://SG:<db_password>@sg-music.mbdksq3.mongodb.net/?appName=SG-MUSIC",
+  mongodbUri : process.env.MONGODB_URI,
   spotifyClientId : "",
   spotifyClientSecret : "",
   setupFilePath: './commands/setup.json',
